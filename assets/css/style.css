@@ -3045,7 +3045,7 @@ footer.main-footer {
 
 footer.main-footer .widgets-section {
     padding-top: 120px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 .about-widget_text {
@@ -3818,7 +3818,6 @@ h4.video-block_title {
 	width:50%;
 	height:100%;
 	opacity:0;
-	background: rgb(222 177 138 / 80%);
     /* background: rgb(255, 127, 80 / 60%); */
 	-webkit-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
@@ -3836,7 +3835,6 @@ h4.video-block_title {
 	width:50%;
 	height:100%;
 	opacity:0;
-	background: rgb(222 177 138 / 80%);
 	-webkit-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
@@ -3923,6 +3921,7 @@ section.gallery-section .col-lg-3 {
 
 .gallery-block_image img {
     width: 100%;
+    
     -webkit-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
@@ -5768,29 +5767,39 @@ ul.service-details-list img {
 }
 
 .footer-content {
+    border-radius: 20px 20px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Pode ser column ou row, conforme sua preferência */
+    flex-direction: column;
+    bottom: 0;
+    padding: 10px; 
+    /* background-color: #2c2f33; */
+    color: #ccc;
+    text-align: center;
+    /* border-top: 1px solid #444; */
 }
 
-
 .logo-small {
-    width: 80px; /* Tamanho pequeno e discreto da logo */
+    width: 80px;
     height: auto;
+    margin-bottom: 10px;
 }
 
 .copyright {
     font-size: 14px;
-    color: #ccc; /* Texto mais suave, para não chamar muita atenção */
+    color: #ccc;
+    margin-top: 5px;
 }
 
 .copyright a {
-    color: #1e90ff; /* Tom de azul suave para links */
+    color: #1e90ff;
     text-decoration: none;
+    transition: color 0.3s ease; /* Suavidade na transição da cor */
 }
 
 .copyright a:hover {
+    color: #ff7f50; /* Cor do hover combinando com o tema */
     text-decoration: underline;
 }
 
