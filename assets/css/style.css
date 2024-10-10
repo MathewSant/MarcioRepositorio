@@ -5781,13 +5781,13 @@ ul.service-details-list img {
 }
 
 .logo-small {
-    width: 80px;
+    width: 90px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .copyright {
-    font-size: 14px;
+    font-size: 18px;
     color: #ccc;
     margin-top: 5px;
 }
